@@ -1,8 +1,28 @@
+a{
+  color: white;
+  padding-right: 32px;
+}
+.MainNavbar{
+  height: 80px;
+  background-color: #A60321;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .Navbar {
   display: flex;
-  align-items: flex-end;
-  background-color: red;
+  flex-direction: row;
 }
-.Navbar .elements {
+.elements {
   display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }/*# sourceMappingURL=Navbar.css.map */
+
+.pomodoroTitle {
+  width: 100%;
+  font-weight: bolder;
+  text-align: center;
+}
