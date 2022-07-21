@@ -5,14 +5,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 12px;
 }
 
 .boxTimer {
-  margin-top: 32px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: inherit;
+  color: white;
 }
 
 .timer {
@@ -29,11 +30,11 @@
 }
 
 .boxControls {
-  margin-top: 32px;
-  display: flex;
+  margin-top: 16px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: inherit;
 }
 
 button {
@@ -41,6 +42,7 @@ button {
   width: 50px;
   height: 32px;
   border: none;
+  margin: 2px;
   background-color: #95BC81;
   color: #668C54;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -50,13 +52,20 @@ button:hover {
   background: #b2e19b;
   cursor: pointer;
 }
-
-.sessionBreak {
+.timeControl {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  justify-content: center;
+  color: white;
+  margin-top: 8px;
+  font-weight: bold;
+}
+.session1{
+  padding-left: 20px;
 }
 
 .session2 {
-  margin-left: 20px;
+  padding-left: 2px;
+
 }/*# sourceMappingURL=timer.css.map */
