@@ -1,6 +1,5 @@
-a{
+a {
   color: white;
-  padding-right: 32px;
 }
 .MainNavbar{
   height: 80px;
@@ -20,6 +19,10 @@ a{
   flex-direction: row;
   list-style-type: none;
 }/*# sourceMappingURL=Navbar.css.map */
+
+.elementLink{
+  padding-right: 12px;
+}
 
 .pomodoroTitle {
   width: 100%;
