@@ -12,6 +12,7 @@ body {
 .App {
   display: flex;
   flex-direction: column;
+  background-color: #DE4849;
 }
 
 .tablero {
@@ -45,3 +46,13 @@ body {
   margin-top: 30px;
   border-radius: 20px;
 }/*# sourceMappingURL=App.css.map */
+footer {
+  margin-top: 32px;
+  background-color: #700000;
+  height: 100px;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
