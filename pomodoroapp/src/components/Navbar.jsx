@@ -23,9 +23,16 @@ function Navbar() {
 
           <nav className='Navbar'> 
             <ul className='elements'>
-                <li><a href='/'>Home</a></li>
-                <li><a href='/profile'>Profile</a></li>
-                <li><a href='/about'>About</a></li>
+                <div className='elementLink'>
+                    <li><a href='/'>Home</a></li>
+                </div>
+                <div className='elementLink'>
+                  <li><a href='/profile'>Profile</a></li>
+                </div>
+                <div className='elementLink'>
+                  <li><a href='/about'>About</a></li>
+                </div>
+                
             </ul>
         </nav>
         </div>
