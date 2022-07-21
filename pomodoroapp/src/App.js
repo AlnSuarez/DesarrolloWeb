@@ -25,6 +25,16 @@ function App() {
                 </Routes>
             </BrowserRouter>
 
+            <div>
+                <footer>
+                    <p>Hecho con <i class="bi bi-suit-heart"></i> por:</p>
+                    <nav>
+                        <a href="https://github.com/AlnSuarez" target='_blank'><i class="bi bi-github"></i> AlnSuarez</a> | 
+                        <a href="https://github.com/MauroAlatristeA" target='_blank'><i class="bi bi-github"></i> MauroAlatristeA</a> | 
+                        <a href="https://github.com/anthonyibrail" target='_blank'><i class="bi bi-github"></i> anthonyibrail</a>
+                    </nav>
+                </footer>
+            </div>
             
         </div>
     );
